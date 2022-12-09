@@ -1,0 +1,112 @@
+CRITICAL - 2022-11-30 07:11:54 --> Call to a member function save() on null
+in APPPATH\Controllers\ApiStudentController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApiStudentController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 07:26:10 --> Call to a member function save() on null
+in APPPATH\Controllers\ApiStudentController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApiStudentController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 07:27:13 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::post() must be of the type array or null, string given, called in C:\xampp\htdocs\appstarter\app\Config\Routes.php on line 43
+in SYSTEMPATH\Router\RouteCollection.php on line 896.
+ 1 APPPATH\Config\Routes.php(43): CodeIgniter\Router\RouteCollection->post('students/', 'ApiStudentController/create', 'ApiStudentController::create')
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 07:27:51 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::post() must be of the type array or null, string given, called in C:\xampp\htdocs\appstarter\app\Config\Routes.php on line 43
+in SYSTEMPATH\Router\RouteCollection.php on line 896.
+ 1 APPPATH\Config\Routes.php(43): CodeIgniter\Router\RouteCollection->post('students/', 'ApiStudentController/create', 'ApiStudentController::create')
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 07:28:52 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::post() must be of the type array or null, string given, called in C:\xampp\htdocs\appstarter\app\Config\Routes.php on line 43
+in SYSTEMPATH\Router\RouteCollection.php on line 896.
+ 1 APPPATH\Config\Routes.php(43): CodeIgniter\Router\RouteCollection->post('students/', 'ApiStudentController/create', 'ApiStudentController::create')
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 20:26:52 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in C:\xampp\htdocs\appstarter\app\Config\Routes.php on line 42
+in SYSTEMPATH\Router\RouteCollection.php on line 884.
+ 1 APPPATH\Config\Routes.php(42): CodeIgniter\Router\RouteCollection->get('/students', 'ApiStudentController/index', 'ApiStudentController::index')
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 20:32:08 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in C:\xampp\htdocs\appstarter\app\Config\Routes.php on line 42
+in SYSTEMPATH\Router\RouteCollection.php on line 884.
+ 1 APPPATH\Config\Routes.php(42): CodeIgniter\Router\RouteCollection->get('/students', 'ApiStudentController/index', 'ApiStudentController::index')
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 20:32:16 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in C:\xampp\htdocs\appstarter\app\Config\Routes.php on line 42
+in SYSTEMPATH\Router\RouteCollection.php on line 884.
+ 1 APPPATH\Config\Routes.php(42): CodeIgniter\Router\RouteCollection->get('/students', 'ApiStudentController/index', 'ApiStudentController::index')
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 20:33:33 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in C:\xampp\htdocs\appstarter\app\Config\Routes.php on line 42
+in SYSTEMPATH\Router\RouteCollection.php on line 884.
+ 1 APPPATH\Config\Routes.php(42): CodeIgniter\Router\RouteCollection->get('/students', 'ApiStudentController/index', 'ApiStudentController::index')
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 20:33:52 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in C:\xampp\htdocs\appstarter\app\Config\Routes.php on line 42
+in SYSTEMPATH\Router\RouteCollection.php on line 884.
+ 1 APPPATH\Config\Routes.php(42): CodeIgniter\Router\RouteCollection->get('/students', 'ApiStudentController/index', 'ApiStudentController::index')
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 20:34:15 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in C:\xampp\htdocs\appstarter\app\Config\Routes.php on line 42
+in SYSTEMPATH\Router\RouteCollection.php on line 884.
+ 1 APPPATH\Config\Routes.php(42): CodeIgniter\Router\RouteCollection->get('/students', 'ApiStudentController/index', 'ApiStudentController::index')
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 20:38:04 --> You must supply the parameters: from, to.
+in SYSTEMPATH\Router\RouteCollection.php on line 867.
+ 1 APPPATH\Config\Routes.php(43): CodeIgniter\Router\RouteCollection->match([...], 'StudentApiController::create')
+ 2 SYSTEMPATH\CodeIgniter.php(789): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 21:59:24 --> Call to undefined method App\Models\StudentModel::order_by
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\ApiStudentController.php(16): CodeIgniter\Model->__call('order_by', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApiStudentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStudentController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 22:48:39 --> preg_match(): Compilation failed: missing closing parenthesis at offset 32
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 32', 'SYSTEMPATH\\Router\\Router.php', 418, [...])
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^ApiStudentController/show/(:id$#u', 'ApiStudentController/show', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('ApiStudentController/show')
+ 4 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('ApiStudentController/show')
+ 5 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

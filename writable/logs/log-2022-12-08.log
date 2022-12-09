@@ -1,0 +1,14 @@
+CRITICAL - 2022-12-08 16:38:47 --> Call to a member function update() on null
+in APPPATH\Controllers\ApiStudentController.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApiStudentController->update('ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-08 16:42:19 --> Call to a member function update() on null
+in APPPATH\Controllers\ApiStudentController.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApiStudentController->update('3')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
